@@ -7499,31 +7499,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description,
 #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-figure {
-  width: 50%;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description,
   #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-figure {
     display: block;
-    width: 100%;
+    width: 200%;
   }
 }
 #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-figure {
   background-repeat: no-repeat;
-  background-size: cover;
+  
   background-position: center center;
   overflow: hidden;
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-figure {
-    height: 400px;
+    height: 700px;
   }
 }
 #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description {
   background: #fff;
   padding: 4em;
-  font-size: 20px;
-  line-height: 36px;
+  font-size: 16px;
+  line-height: 30px;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description {
@@ -7595,7 +7595,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-services {
-  padding: 7em 0;
+  padding: 4em 0;
   background: #fafafa;
 }
 @media screen and (max-width: 768px) {
@@ -7609,7 +7609,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-services .fh5co-service .fh5co-icon {
   float: left;
-  width: 20%;
+  width: 10%;
 }
 #fh5co-services .fh5co-service .fh5co-icon i {
   font-size: 40px;
