@@ -1,6 +1,6 @@
 :root {
-  --bg: #faf7f3;
-  --surface: #ffffff;
+  --bg: #ffffff;
+  --surface: #fbf9f7;
   --ink: #1f1a17;
   --muted: #5f5750;
   --line: #e7e0d8;
@@ -9,17 +9,6 @@
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --max: 1080px;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #171412;
-    --surface: #211d1a;
-    --ink: #f1ebe5;
-    --muted: #b3a99f;
-    --line: #36302b;
-    --accent: #e48a9a;
-    --accent-soft: #3a2328;
-  }
 }
 
 * { box-sizing: border-box; }
